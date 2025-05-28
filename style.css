@@ -27,7 +27,7 @@ body, html {
     z-index: 0;
     pointer-events: none;
     /* SVG wave pattern */
-    background: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="wave" patternUnits="userSpaceOnUse" width="180" height="120" patternTransform="scale(1.2)"><path d="M0 60 Q 45 0 90 60 T 180 60" fill="none" stroke="white" stroke-width="7"/><path d="M0 90 Q 45 30 90 90 T 180 90" fill="none" stroke="white" stroke-width="3" opacity="0.5"/><path d="M0 30 Q 45 90 90 30 T 180 30" fill="none" stroke="white" stroke-width="2" opacity="0.3"/></pattern></defs><rect width="100%" height="100%" fill="url(%23wave)"/></svg>');
+    background: url(https://i.pinimg.com/736x/fa/de/38/fade38cd5c1f384eca9cb5678f354c97.jpg);
     opacity: 0.14;
     animation: move-waves 22s linear infinite alternate;
 }
@@ -244,8 +244,7 @@ footer {
         padding: 20px 8px 16px 8px;
         font-size: 1rem;
     }
-    .projeto {
-        padding: 9px 10px;
+
     }
     main {
         padding: 22px 3px 20px 3px;
